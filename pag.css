@@ -60,11 +60,10 @@ button{
         padding: 20px;
         
     }
+    
     .apresent{
         text-align: left;
-        font-size: 10px;
-        margin-right: 10px;
-        
+        margin: 30px;
     }
     .topomenu{ display: none;
         
@@ -72,11 +71,12 @@ button{
     .mnmobil, .sobremim, .mnduo{
         display: flex;
         justify-content: space-around;
-          
+        margin: 20px;  
+    }
+    
     }
     .sobremim{
      flex-direction: column;
-
 
     }
     .redeslist{
