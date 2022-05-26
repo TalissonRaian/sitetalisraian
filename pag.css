@@ -56,9 +56,12 @@ button{
         display: block;
 
     }
-    
+    .bio{
+        padding: 20px;
+        
+    }
     .apresent{
-        text-align: center;
+        text-align: left;
         font-size: 10px;
         margin-right: 10px;
         
