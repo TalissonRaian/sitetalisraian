@@ -56,9 +56,12 @@ button{
         display: block;
 
     }
+    
     .apresent{
-        text-align: end;
+        text-align: center;
         font-size: 10px;
+        margin-right: 10px;
+        
     }
     .topomenu{ display: none;
         
