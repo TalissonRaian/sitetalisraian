@@ -56,11 +56,13 @@ button{
         display: block;
 
     }
+    
     .topomenu{ display: none;
         
     }
     .mnmobil, .sobremim, .mnduo{
         display: flex;
+        justify-content: space-around;
           
     }
     .sobremim{
