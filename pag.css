@@ -71,7 +71,7 @@ button{
     .mnmobil, .sobremim, .mnduo{
         display: flex;
         justify-content: space-around;
-        margin: 20px;  
+        margin: 0 10px 0;  
     }
     
     }
