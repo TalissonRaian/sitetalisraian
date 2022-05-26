@@ -1,0 +1,267 @@
+body{
+    background-image: url(imagens/backgraundmenu.jpg);
+}
+
+header{
+    background-color: rgba(58, 10, 2, 0.76);
+    color: white;
+    width: auto;
+      
+}
+.menu .cont{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+
+}
+.logomenu{
+    margin-left: 2%;
+    
+}
+a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+.listmenu{
+    display: flex;
+    
+}
+.topomenu{
+    margin: 30px;
+    padding: 8px;
+    list-style: none;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;    
+}
+button{
+    display: none;
+}
+@media only screen and (max-width: 600px) {
+    .btn{
+        background-color: transparent; /* Blue background */
+        border: none; /* Remove borders */
+        color: white; /* White text */
+        padding: 12px 16px; /* Some padding */
+        font-size: 16px; /* Set a font size */
+        cursor: pointer; /* Mouse pointer on hover */
+        display: block;
+        float: right;    
+    }
+    .btn:checked ~ .cab{
+        margin-left: 0%;
+    }
+    .listmenu{
+        display: block;
+
+    }
+    .topomenu{ display: none;
+        
+    }
+    .mnmobil, .sobremim, .mnduo{
+        display: flex;
+          
+    }
+    .sobremim{
+     flex-direction: column;
+
+
+    }
+    .redeslist{
+        display: none;
+        
+    }
+    
+  }
+
+  .btn:hover {
+    background-color: rgb(136, 54, 48);
+  }
+
+.listmenu:hover{
+    cursor: pointer;
+    
+}
+.topomenu:hover{
+    
+    background-color:  rgba(161, 48, 4, 0.596);
+    border: 1px solid white;
+    border-radius: 50%;
+     
+}
+.pai{
+    margin-top: 2%;
+    display: flex; 
+    width: 700px; 
+    margin-left: auto;
+    margin-right: auto; 
+    padding: 2%;
+    border: solid 2px white;
+    border-radius: 20%;
+    border-style: dotted;
+    margin: 20px auto;
+       
+}
+
+.bio{
+    
+    margin: 40px 0 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgba(255, 255, 255, 0.979);
+}
+.titulobio{
+    font-size: 25px;
+}
+.apresent{
+    margin: 40px 0 0;
+    margin-right: 40px;
+}
+.redes{
+    margin: 60px;
+    display: flex;
+    position: absolute;
+    list-style: none;
+    
+}
+.redeslist{
+    background-color: rgba(255, 255, 255, 0.123);
+    border: 1px solid;
+    text-decoration: none;
+    color: inherit;
+    padding: 10px;
+    
+}
+.redeslist:hover{
+    background-color: rgb(83, 8, 8);
+}
+.fotoperfil{
+    
+    border-radius: 50%;
+    
+   
+    
+}
+.bio, .fotoperfil{
+    
+    display: inline-block;
+   
+}
+.sobremim{ 
+    padding: 100px;
+    color: white;
+    width: 570px; 
+    margin-left: auto;
+    margin-right: auto; 
+    border: solid 2px white;
+    border-radius: 20%;
+    border-style: dotted;
+    margin: 20px auto;
+    
+}
+.sbm{
+    font-size: 25px;
+    margin: 0 0 30px;
+}
+.sbmp{
+    font-size: 18px;
+    
+}
+.skills{
+    background-image: url(https://media.istockphoto.com/vectors/abstract-red-light-hexagon-line-in-grey-modern-luxury-futuristic-vector-id1169152910?k=20&m=1169152910&s=612x612&w=0&h=FW2F5UPaDd4Vjsj9PAWEePtvZAUnGhcoq-jOwnAa2Yo=);
+    color: white;
+    border: solid 6px rgba(58, 20, 20, 0.514);
+    padding: 20px;
+    text-align: center;
+    font-size: 25px;
+}
+.listskills{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    padding: 30px;
+    
+}
+.listskills li :hover{
+    cursor: pointer;
+    font-size: 60px;    
+}
+.academic{
+    background-image: url(imagens/academic.jpg);
+    color: rgb(255, 255, 255);
+    border: solid 6px rgba(58, 20, 20, 0.514);
+    text-align: center;
+    font-size: 25px;
+    padding: 8px;
+    text-align: center;
+    font-size: 25px;
+}
+.tituloacademic{
+    color: white;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: -1px 0 black, 0 1px black,
+      1px 0 black, 0 -1px black
+}
+.educ{
+    color: white;
+    border: 1px transparent white;
+    border-radius: 10%;
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.185);
+}
+.curs{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+.titulocont{
+    text-align: center;
+}
+form{
+    
+  border: 3px solid;
+  margin: 0 0 30px;
+  padding: 8px;
+  background-image: url(imagens/contato2.jpg);
+}
+form, label{
+   
+    display:block;
+    margin: auto;
+    font-size: 20px;
+    position: relative;
+    color: white;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: -1px 0 black, 0 1px black,
+      1px 0 black, 0 -1px black
+    
+}
+
+input, label, textarea {
+    display: block;
+    margin: auto;
+    padding: 10px 25px;
+    width: 50%;
+}
+textarea{
+    width: 50%;
+    
+}
+.enviar{
+    width: 50%;
+    padding: 20px;
+    margin-top: 25px;   
+}
+footer{
+    text-align: center;
+    padding: 25px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(58, 20, 20, 0.514);
+    
+}
+.textrodape{
+    font-size: 15px;
+}
