@@ -56,7 +56,9 @@ button{
         display: block;
 
     }
-    
+    .apresent{
+        text-align: end;
+    }
     .topomenu{ display: none;
         
     }
